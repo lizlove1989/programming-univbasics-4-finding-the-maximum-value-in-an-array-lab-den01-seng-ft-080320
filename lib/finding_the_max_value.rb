@@ -1,3 +1,5 @@
 def find_max_value(array)
-  array.each 
+  highest_value = 0
+  array.each do |i|
+    if i > highest_value 
 end
